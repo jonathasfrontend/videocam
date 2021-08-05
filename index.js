@@ -19,4 +19,4 @@ function carregar_janela (){
 
     janela.loadFile('index.html');
 }
-app.whenReady().then(carregar_janela)
+app.whenReady().then(carregar_janela);

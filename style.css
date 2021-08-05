@@ -19,15 +19,25 @@ body{
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    border: 5px solid #00c700;
-    background-color: #ff5e00e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, #ff0000 20%, #ffbb00 50%, #ff0000 100%);
 }
 .container-video video{
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
+    border: 2px solid #000000;
     border-radius: 50%;
     object-fit: cover;
+    background-color: #000000;
 }
 button, body, #video-grid{
     -webkit-app-region: drag;
+}
+
+@keyframes animated{
+    to{
+        transform: rotate(360deg);
+    }
 }
