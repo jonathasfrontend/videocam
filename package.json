@@ -1,0 +1,21 @@
+{
+  "name": "camera",
+  "version": "1.0.0",
+  "description": "Um pequeno reprodutor de webcam focado em fornecer uma maneira fácil de adicionar e controlar sua webcam durante as gravações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "webcam",
+    "app",
+    "video cam",
+    "video"
+  ],
+  "author": "Jonathas <jonathass5678@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^13.1.8"
+  }
+}

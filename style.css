@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.container-video{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #00c700;
+    background-color: #ff5e00e8;
+}
+.container-video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+button, body, #video-grid{
+    -webkit-app-region: drag;
+}
